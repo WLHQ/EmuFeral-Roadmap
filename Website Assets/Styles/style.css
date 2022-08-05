@@ -170,10 +170,6 @@ p {
 .timeline-list li .content {
   animation:revealFromLeft 0.5s 0s ease both 1;
 }
-
-
-
-
 .timeline-list li:nth-child(1):before {
   animation-delay:0.85s;
 }
