@@ -1,0 +1,1 @@
+If you make changes to the website, you must change the version of in the service worker for static and / or dynamic cache. This will make the users web browser fetch the latest content on the web on the next reload with the new service worker.
