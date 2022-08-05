@@ -3,8 +3,9 @@ const dynamicCacheName = 'site-dynamic-pwa-v1.0.0';
 const assets = [
 	'/',
 	'/index.html',
-	'/Website-Assets/Styles/style.css',
-	'/offline.html'
+	'/Website-Assets/Styles/style-EmuFeral-Roadmap.css',
+	'/offline.html',
+	'/manifest.json'
 ]
 
 
