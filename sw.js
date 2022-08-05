@@ -3,7 +3,7 @@ const dynamicCacheName = 'site-dynamic-pwa-v1.0.0';
 const assets = [
 	'/',
 	'/index.html',
-	'/Website Assets/Styles/style.css',
+	'/Website-Assets/Styles/style.css',
 	'/offline.html'
 ]
 
@@ -53,7 +53,7 @@ self.addEventListener('fetch', evt => {
                 return caches.open(dynamicCacheName).then(cache => {
                     cache.put(evt.request.url, fetchRes.clone());
                     // check cached items size
-                    limitCacheSize(dynamicCacheName, 5);
+                    limitCacheSize(dynamicCacheName, 7);
                     return fetchRes;
                 })
             });
