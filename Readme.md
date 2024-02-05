@@ -7,4 +7,4 @@ To view this website on your local machine you'll need Google Chrome Installed o
 
 Windows and MacOS:
 To view this website on your local machine you'll need Google Chrome Installed on a Desktop. And you'll also need Simple Web Server which is available for Windows and MacOS:
-https://simplewebserver.org/
+https://simplewebserver.org/download.html
